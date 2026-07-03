@@ -1,13 +1,12 @@
-# TIG Open Data License
-
-**Version 3.0, July 2024**  
+**TIG Open Data License**
+**Version 3.0**, July 2024  
 https://tig.foundation  
 
-By exercising any right granted under this Licence You irrevocably accept these terms and conditions.
+**By exercising any right granted under this Licence You irrevocably accept these terms and conditions.**
 
-## 1. Definitions
+**1. Definitions**
 
-**1.1. “Anonymised Version”** means a version of a data set that does not retain any personally identifiable information (“PII”).
+**1.1. “Anonymised Version”** means a version of a data set that does not retain any personally identifiable information (**“PII”**).
 
 **1.2. “Contributor”** means each individual or legal entity that creates, contributes to the creation of or owns the Covered Software, or that has the right to grant, to the maximum extent possible, whether at the time of the initial grant or subsequently any, and all, of the rights conveyed by this License.
 
@@ -44,99 +43,184 @@ By exercising any right granted under this Licence You irrevocably accept these 
 
 **1.17. “TIG”** means The TIG UG, a Swiss association established and registered in Switzerland with a registered office at Gartenstrasse 6, 6300 Zug, Switzerland, its successors and assigns.
 
-**1.18. “You” (or “Your”)** means an individual or a legal entity exercising rights under this License. For legal entities, “You” includes any entity that controls, is controlled by, or is under common control with You.
+**1.18. “You” (or “Your”)** means an individual or a legal entity exercising rights
+under this License. For legal entities, “You” includes any entity that
+controls, is controlled by, or is under common control with You. For purposes
+of this definition, “control” means (a) the power, direct or indirect, to
+cause the direction or management of such entity, whether by contract or
+otherwise, or (b) ownership of more than fifty percent (50%) of the
+outstanding shares or beneficial ownership of such entity.
 
-## 2. License Grants and Conditions
+**2. License Grants and Conditions**
 
-### 2.1. Copyright Grants
+**2.1. Copyright Grants**
 
 Subject to the terms of this License, each Contributor hereby grants You a world-wide, royalty-free, non-exclusive license under intellectual property rights (other than patent or trademark) Licensable by such Contributor:
 
-1. to reproduce and use its Contributions, either unmodified, with Modifications, or as part of a Larger Work; and  
-2. to make available, modify, display, perform, distribute, and otherwise exploit its Contributions, either unmodified, with Modifications, or as part of a Larger Work.
+- (i)   to reproduce and use its Contributions, either unmodified, with Modifications, or as part of a Larger Work; and  
+- (ii)  to make available, modify, display, perform, distribute, and otherwise exploit its Contributions, either unmodified, with     Modifications, or as part of a Larger Work.
 
-### 2.2. Patent Grants
+**2.2. Patent Grants**
 
-1. Subject to the terms of this License, TIG hereby grants You a world-wide, royalty-free, non-exclusive license under Patent Claims of TIG to make, use, sell, offer for sale, have made, import, and otherwise transfer the Covered Software and Products.
+- (i) Subject to the terms of this License, **TIG** hereby grants You a world-wide, royalty-free, non-exclusive license under Patent Claims of TIG to make, use, sell, offer for sale, have made, import, and otherwise transfer the Covered Software and Products.
 
-2. Subject to the terms of this License, each Contributor hereby grants You a world-wide, royalty-free, non-exclusive license under Patent Claims of such Contributor to make, use, sell, offer for sale, have made, import, and otherwise transfer its Contributions or its Contributor Version.
+- (ii) Subject to the terms of this License, each **Contributor** hereby grants You a world-wide, royalty-free, non-exclusive license under Patent Claims of such Contributor to make, use, sell, offer for sale, have made, import, and otherwise transfer its Contributions or its Contributor Version.
 
-### 2.3. Effective Date
+**2.3. Effective Date**
 
-The licenses granted in Section 2.2(i) with respect to any Patent Claims of TIG become effective on the date TIG first distributes the Covered Work.
+The licenses granted in Section 2.2(i) with respect to any Patent Claims of TIG
+become effective on the date TIG first distributes the Covered Work.
 
-The licenses granted in Sections 2.1 and 2.2(ii) with respect to any Contribution or Contributor Version become effective for each Contribution or Contributor Version on the date the Contributor first distributes such Contribution or Contributor Version.
+The licenses granted in Sections 2.1 and 2.2(ii) with respect to any Contribution
+or Contributor Version become effective for each Contribution or Contributor
+Version on the date the Contributor first distributes such Contribution or
+Contributor Version.
 
-### 2.4. Limitations on Grant Scope
+**2.4. Limitations on Grant Scope**
 
-The licenses granted in this Section 2 are the only rights granted under this License. No additional rights or licenses will be implied from the distribution or licensing of Covered Software under this License.
+The licenses granted in this Section 2 are the only rights granted under this
+License. No additional rights or licenses will be implied from the distribution or
+licensing of Covered Software under this License.
 
-### 2.5. Representation
+**2.5. Representation**
 
-Each Contributor represents that the Contributor believes its Contributions are its original creation(s) or that it has sufficient rights to grant the rights to its Contributions conveyed by this License.
+Each Contributor represents that the Contributor believes its Contributions are its
+original creation(s) or that it has sufficient rights to grant the rights to its
+Contributions conveyed by this License.
 
-### 2.6. Fair Use
+**2.6. Fair Use**
+This License is not intended to limit any rights You have under applicable
+copyright doctrines of fair use, fair dealing, or other equivalents.
 
-This License is not intended to limit any rights You have under applicable copyright doctrines of fair use, fair dealing, or other equivalents.
+**2.7. Conditions**
 
-### 2.7. Conditions
+Sections 3.1, 3.2, 3.3, and 3.4 are conditions of the licenses granted in Sections
+2.1 and 2.2.
 
-Sections 3.1, 3.2, 3.3, and 3.4 are conditions of the licenses granted in Sections 2.1 and 2.2.
+**3. Responsibilities**
 
-## 3. Responsibilities
+**3.1. Distribution of Source Form**
 
-### 3.1. Distribution of Source Form
+**Share Alike:** All distribution of Covered Software in Source Code Form, including
+any Modifications that You create or to which You contribute, must be under the
+terms of this License. You must inform recipients that the Source Code Form of the
+Covered Software is governed by the terms of this License, and how they can obtain
+a copy of this License.
 
-**Share Alike:** All distribution of Covered Software in Source Code Form, including any Modifications that You create or to which You contribute, must be under the terms of this License.
+**3.2. Distribution of Executable Form**
 
-### 3.2. Distribution of Executable Form
+**Availability of Source Code Form:** If You distribute Covered Software in Executable
+Form then such Covered Software must also be made available in Source Code Form,
+subject to Section 3.1 above, and You must inform recipients of the Executable Form
+how they can obtain a copy of such Source Code Form by reasonable means in a timely
+manner, at a charge no more than the cost of distribution to the recipient.
 
-**Availability of Source Code Form:** If You distribute Covered Software in Executable Form then such Covered Software must also be made available in Source Code Form, subject to Section 3.1 above.
+**3.3. Distribution of a Larger Work**
 
-### 3.3. Distribution of a Larger Work
+You may create and distribute a Larger Work under terms of Your choice, provided
+that, You, also comply with the requirements of this License for the Covered
+Software.
 
-You may create and distribute a Larger Work under terms of Your choice, provided that You also comply with the requirements of this License for the Covered Software.
+**3.4. Provision of Product**
 
-### 3.4. Provision of Product
+If You provide (whether by way of service, distribution or otherwise) Product the
+corresponding Product Information must also be made generally available, and You
+must publicly state how a third party can obtain a copy of such Product Information
+by reasonable means in a timely manner, at a charge no more than the cost of
+distribution to the recipient.
 
-If You provide (whether by way of service, distribution or otherwise) Product, the corresponding Product Information must also be made generally available.
+**3.5. Notices**
 
-### 3.5. Notices
+You may not remove or alter the substance of any license notices (including
+copyright notices, patent notices, disclaimers of warranty, or limitations of
+liability) contained within the Source Code Form of the Covered Software, except
+that You may alter any license notices to the extent required to remedy known
+factual inaccuracies.
 
-You may not remove or alter the substance of any license notices contained within the Source Code Form of the Covered Software.
+**4. Inability to Comply Due to Statute or Regulation**
 
-## 4. Inability to Comply Due to Statute or Regulation
+If it is impossible for You to comply with any of the terms of this License with
+respect to some or all of, the Covered Software or Product Information due to
+statute, judicial order, or regulation then You must: (a) comply with the terms of
+this License to the maximum extent possible; and (b) describe the limitations and
+the code or information they affect. Such description must be placed in a text file
+included with all distributions of the Covered Software under this License and any
+relevant Product Information. Except to the extent prohibited by statute or
+regulation, such description must be sufficiently detailed for a recipient of
+ordinary skill to be able to understand it.
 
-If it is impossible for You to comply with any terms of this License due to statute, judicial order, or regulation, You must comply to the maximum extent possible and describe the limitations.
+**5. Termination**
 
-## 5. Termination
+The rights granted under this License will terminate automatically if You fail to
+comply with any of its terms. However, if You become compliant, then the rights
+granted under this License from TIG or a particular Contributor are reinstated (a)
+provisionally, unless and until TIG or such Contributor explicitly and finally
+terminates Your grants, and (b) on an ongoing basis, if TIG or such Contributor
+fails to notify You of the non-compliance by some reasonable means prior to 60 days
+after You have come back into compliance. Moreover, Your grants, from TIG or a
+particular Contributor, are reinstated on an ongoing basis if TIG or such
+Contributor notifies You of the non-compliance by some reasonable means, this is
+the first time You have received notice of non-compliance with this License from
+TIG or such Contributor, and You become compliant prior to 30 days after Your
+receipt of the notice.
 
-The rights granted under this License will terminate automatically if You fail to comply with any of its terms.
+**6. Disclaimer of Warranty**
 
-## 6. Disclaimer of Warranty
+Covered Software is provided under this License and Product Information is provided
+pursuant to this License on an “as is” basis, without warranty of any kind, either
+expressed, implied, or statutory, including, without limitation, warranties that
+the Covered Software and Product Information, as the case may be, is free of
+defects, merchantable, fit for a particular purpose or non-infringing. The entire
+risk as to the quality and performance of the Covered Software and Product
+Information is with You. Should any Covered Software or Product Information prove
+defective in any respect, You (not TIG or any Contributor) assume the cost of any
+necessary servicing, repair, or correction. This disclaimer of warranty constitutes
+an essential part of this License. No use of Product Information, or use of any
+Covered Software is authorized under this License, except under this disclaimer.
 
-Covered Software is provided on an **"AS IS"** basis, without warranty of any kind.
+**7. Limitation of Liability**
 
-## 7. Limitation of Liability
+Under no circumstances and under no legal theory, whether tort (including
+negligence), contract, or otherwise, shall TIG, any Contributor, or anyone who
+distributes Covered Software as permitted above, be liable to You for any direct,
+indirect, special, incidental, or consequential damages of any character including,
+without limitation, damages for lost profits, loss of goodwill, work stoppage,
+computer failure or malfunction, or any and all other commercial damages or losses,
+even if such party shall have been informed of the possibility of such damages.
+This limitation of liability shall not apply to liability for death or personal
+injury resulting from such party’s negligence to the extent applicable law
+prohibits such limitation. Some jurisdictions do not allow the exclusion or
+limitation of incidental or consequential damages, so this exclusion and limitation
+may not apply to You.
 
-Under no circumstances shall TIG, any Contributor, or anyone who distributes Covered Software be liable for any damages arising from use of the Covered Software.
+**8. New Versions**
 
-## 8. New Versions
+8.1 You may distribute the Covered Software under the terms of the version of the
+License under which You originally received the Covered Software, or under the
+terms of any subsequent version published by TIG. Contributor hereby makes any
+necessary additional grants as a result of Your choice to distribute the Covered
+Software under a subsequent version of this License.
 
-You may distribute the Covered Software under the version of the License under which You originally received it, or any subsequent version published by TIG.
+**9. Miscellaneous**
 
-## 9. Miscellaneous
+This License represents the complete agreement concerning the subject matter
+hereof. If any provision of this License is held to be unenforceable, such
+provision shall be reformed only to the extent necessary to make it enforceable.
+Any law or regulation which provides that the language of a contract shall be
+construed against the drafter shall not be used to construe this License against a
+Contributor or against TIG.
 
-This License represents the complete agreement concerning the subject matter hereof.
-
-## Appendix 1 - License Notice
+**Appendix 1 - License Notice**
 
 Copyright [year copyright work created] [name of copyright owner]
 
-Licensed under the TIG Open Data License v3.0 or (at your option) any later version (the "License"); you may not use this file except in compliance with the License.
-
+Licensed under the TIG Open Data License v3.0 or (at your option) any later version
+(the "License"); you may not use this file except in compliance with the License.
 You may obtain a copy of the License at:
 
 https://github.com/tig-foundation/tig-monorepo/tree/main/docs/licenses
 
-Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an **"AS IS" BASIS**, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND.
+Unless required by applicable law or agreed to in writing, software distributed
+under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+CONDITIONS OF ANY KIND, either express or implied. See the License for the specific
+language governing permissions and limitations under the License.
