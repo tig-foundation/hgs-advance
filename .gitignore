@@ -1,0 +1,16 @@
+/target
+*.sol
+
+# Downloaded benchmark instances (see the download.sh scripts in instances/);
+# only the example instances referenced in the README are tracked.
+/instances/cvrp/*.vrp
+!/instances/cvrp/X-n1001-k43.vrp
+/instances/vrptw/*.txt
+/instances/vrptw/*.TXT
+!/instances/vrptw/C101.txt
+!/instances/vrptw/R101.txt
+!/instances/vrptw/RC101.txt
+!/instances/vrptw/RC102.txt
+!/instances/vrptw/RC105.txt
+!/instances/vrptw/RC201.txt
+!/instances/vrptw/RC202.txt

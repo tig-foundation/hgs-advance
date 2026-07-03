@@ -1,17 +1,53 @@
-# TIG Code Submission
+# hgs_advance — Hybrid Genetic Search for CVRP and VRPTW
 
-## Submission Details
+This repository contains `hgs_advance`, a Rust implementation of an "advanced" and scalable Hybrid Genetic Search (HGS) for the Vehicle Routing Problem with Time Windows (VRPTW) and the Capacitated Vehicle Routing Problem (CVRP).
 
-* **Challenge Name:** vehicle_routing
-* **Algorithm Name:** hgs_advance
-* **Copyright:** 2026 Thibaut Vidal
-* **Identity of Submitter:** Thibaut Vidal
-* **Identity of Creator of Algorithmic Method:** Thibaut Vidal
-* **Unique Algorithm Identifier (UAI):** c002_a110
+The algorithm was created by Thibaut Vidal (© 2026) as an advance submission for The Innovation Game (TIG) `vehicle_routing` challenge (Unique Algorithm Identifier: `c002_a110`). **This repository is the standalone distribution of that algorithm for use outside of the TIG game**: it compiles into a binary that can be run directly on vehicle routing instances defined in text files, under the license terms described [below](#license).
 
-## References and Acknowledgments
+## Building
 
-This folder contains a Rust implementation of an "advanced" and scalable Hybrid Genetic Search (HGS) for the Vehicle Routing Problem with Time Windows (VRPTW) and the Capacitated Vehicle Routing Problem (CVRP). The algorithm, called `hgs_advance`, accompanies an advance submission for the TIG `vehicle_routing` challenge.
+Requirements: a recent [Rust toolchain](https://rustup.rs).
+
+```bash
+cargo build --release
+```
+
+The solver binary is produced at `target/release/hgs_advance`.
+
+## Running on Benchmark Instances
+
+The `instances/` folder contains a few classical academic benchmark instances:
+
+* `instances/vrptw/`: Solomon VRPTW instances (100 customers), e.g. `R101`, `C101`, `RC101`, `RC201`. Run `instances/vrptw/download.sh` to download the full set of 56 Solomon instances into that folder. The script can also download the large-scale Gehring & Homberger instances (from [SINTEF TOP](https://www.sintef.no/projectweb/top/vrptw/)) by passing the desired instance sizes, e.g. `instances/vrptw/download.sh 200 1000` for the 200- and 1000-customer sets, or `instances/vrptw/download.sh all` for the Solomon set plus all Gehring & Homberger sizes (200-1000). Only the example instances are tracked in git; all other downloaded instances are ignored.
+* `instances/cvrp/`: CVRPLIB "X" instances of Uchoa et al., e.g. `X-n1001-k43`. Run `instances/cvrp/download.sh` to download the full set of 100 X instances from [CVRPLIB](https://galgos.inf.puc-rio.br/cvrplib/en/instances/1) into that folder.
+
+Usage:
+
+```bash
+hgs_advance <FORMAT> <INSTANCE_FILE> [-o SOLUTION_FILE] [--hyperparameters JSON] [--seed BYTE]
+```
+
+where `FORMAT` is `vrptw` (Solomon / Gehring–Homberger text format) or `cvrp` (CVRPLIB/TSPLIB format). Examples:
+
+```bash
+# Solve a Solomon VRPTW instance and write the solution to RC101.sol
+./target/release/hgs_advance vrptw instances/vrptw/RC101.txt -o RC101.sol
+
+# Solve a large CVRP instance with default parameters
+./target/release/hgs_advance cvrp instances/cvrp/X-n1001-k43.vrp
+
+# Deeper search: higher exploration level (0 = fastest, 6 = deepest), fixed seed
+./target/release/hgs_advance vrptw instances/vrptw/RC201.txt \
+    --hyperparameters '{"exploration_level": 6}' --seed 42
+```
+
+Notes:
+
+* **Distance conventions.** For `vrptw`, coordinates and times are multiplied by 10 and Euclidean distances truncated, following the common convention for Solomon instances: reported costs are 10x the values found in the literature (e.g., a cost of `16313` on `RC101` corresponds to `1631.3`). For `cvrp`, distances are rounded to the nearest integer, as in the CVRPLIB X benchmark.
+* **Hyperparameters.** `--hyperparameters` accepts a JSON object that can override any field of `Params` (see `src/params.rs`). The main knob is `exploration_level` (0-6), which loads a preset; any other keys are applied on top of that preset. Add `"display_traces": true` to print search traces during the run.
+* **Solution files.** With `-o`, the best solution found is written in the standard `Route #k: ...` format, followed by `Cost`, `NB_ROUTES`, and `CPU_TIME` lines.
+
+## Algorithm Description
 
 The method builds on the HGS family of algorithms, as exemplified by the open-source [HGS-CVRP](https://github.com/vidalt/HGS-CVRP) implementation and the TIG baseline [`hgs_v1`](https://github.com/tig-foundation/tig-monorepo/tree/main/tig-algorithms/src/vehicle_routing/hgs_v1). HGS is highly effective because it combines population-based exploration with aggressive local-search education. However, this same strength becomes a bottleneck on large instances: offspring are repeatedly improved through expensive full-dimensional local searches, and the population may spend substantial effort refining regions of the search space where many route structures are already stable.
 
@@ -26,13 +62,11 @@ The method builds on the HGS family of algorithms, as exemplified by the open-so
 3. **High-performance local search for large instances.**  
    The local-search engine combines customer-level best-move selection, systematic lower-bound prefilters, route/customer timestamps to avoid redundant evaluations, inherited-route handling, and a bounded first-loop deterioration mechanism for controlled diversification.
 
-Together, these components define a scalable HGS architecture in which consensus compression reduces the active problem size, reverse mode reduces the active search region, and the local-search engine reduces wasted move evaluations. The implementation preserves the core strengths of HGS while making the method better suited to large-scale CVRP/VRPTW instances under limited computational budgets.
-
 Together, these components define a scalable HGS architecture in which consensus compression reduces the active problem size, reverse mode reduces the active search region, and the local-search engine reduces wasted move evaluations. These mechanisms are synergistic and interact throughout the run: the master solution induces high-quality seed solutions for the route-cluster subproblems; these seeds are deliberately inserted later to preserve early subproblem diversity; and, even before insertion, they participate in the consensus process to ensure that compression decisions are consistent with the inherited master structure. The implementation preserves the core strengths of HGS while making the method better suited to large-scale CVRP/VRPTW instances under limited computational budgets.
 
 ## Implementation Map
 
-The main advance-specific components are implemented in the following files:
+The main advance-specific components are implemented in the following files under `src/`:
 
 * `solver.rs`: top-level entry point and mode selection. It dispatches to reverse mode when `params.decomp_nb_phases > 0`; otherwise, it runs the standard HGS flow.
 
@@ -48,9 +82,9 @@ The main advance-specific components are implemented in the following files:
 
 * `params.rs`: parameter definitions and presets controlling exploration level, compression cadence, decomposition phases, local-search behavior, and scalability-oriented options.
 
-Additional support files include `sequence.rs`, `individual.rs`, and `problem.rs`, which provide route evaluation, individual representation, problem data, and CVRP/VRPTW feasibility machinery used by the advance-specific components.
+Additional support files include `sequence.rs`, `individual.rs`, and `problem.rs`, which provide route evaluation, individual representation, problem data, and CVRP/VRPTW feasibility machinery used by the advance-specific components. `main.rs` provides the command-line binary, and `loader_vrptw.rs`/`loader_cvrp.rs` parse Solomon-format and CVRPLIB-format benchmark instance files.
 
-### Academic Papers
+## Academic Papers
 
 [1] Vidal, T., Crainic, T. G., Gendreau, M., and Prins, C. (2013). *A hybrid genetic algorithm with adaptive diversity management for a large class of vehicle routing problems with time windows*. Computers & Operations Research, 40(1), 475-489. https://doi.org/10.1016/j.cor.2012.07.018
 
@@ -58,6 +92,6 @@ Additional support files include `sequence.rs`, `individual.rs`, and `problem.rs
 
 ## License
 
-This code is available for use outside of the TIG game under the [*TIG Open Data License*](https://github.com/tig-foundation/hgs_advance/open_data_license.pdf), subject to its share-alike and open data terms.
+This code is available for use outside of the TIG game under the [*TIG Open Data License*](LICENSE.md) ([PDF](open_data_license.pdf)), subject to its share-alike and open data terms.
 
-For users who do not wish to comply with those terms, this code is also available under the [*TIG Commercial License*](https://github.com/tig-foundation/hgs_advance/commercial_license.pdf), subject to payment of the applicable commercial license fee.
+For users who do not wish to comply with those terms, this code is also available under the [*TIG Commercial License*](LICENSE-COMMERCIAL.md) ([PDF](commercial_license.pdf)), subject to payment of the applicable commercial license fee.

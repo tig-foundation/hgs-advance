@@ -1,0 +1,25 @@
+[package]
+name = "hgs_advance"
+version = "0.1.0"
+readme = "README.md"
+license-file = "LICENSE.md"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.81"
+clap = "4.5.4"
+rand = { version = "0.8.5", features = ["small_rng"] }
+serde = { version = "1.0.196", features = ["derive"] }
+serde_json = "1.0.113"
+tig-challenges = { git = "https://github.com/tig-foundation/tig-challenges.git", features = [
+    "vehicle_routing",
+] }
+
+[features]
+default = ["benchmark_io"]
+benchmark_io = []
+
+[[bin]]
+name = "hgs_advance"
+path = "src/main.rs"
+required-features = ["benchmark_io"]

@@ -107,7 +107,7 @@ impl Solver {
         hyperparameters: &Option<Map<String, Value>>,
         output_solution_path: Option<&str>,
         seed_byte: Option<u8>,
-    ) -> Result<Option<Solution>> {
+    ) -> Result<Option<(Solution, i32, usize)>> {
         let t0 = Instant::now();
         let mut data = match run_type {
             "vrptw" => VRPTWLoader::load(path)?,
@@ -130,7 +130,7 @@ impl Solver {
                         cpu_time_secs,
                     )?;
                 }
-                Ok(Some(solution))
+                Ok(Some((solution, cost, routes)))
             }
             Ok(None) => Ok(None),
             Err(e) => {
