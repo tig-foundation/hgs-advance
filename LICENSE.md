@@ -1,0 +1,142 @@
+# TIG Open Data License
+
+**Version 3.0, July 2024**  
+https://tig.foundation  
+
+By exercising any right granted under this Licence You irrevocably accept these terms and conditions.
+
+## 1. Definitions
+
+**1.1. “Anonymised Version”** means a version of a data set that does not retain any personally identifiable information (“PII”).
+
+**1.2. “Contributor”** means each individual or legal entity that creates, contributes to the creation of or owns the Covered Software, or that has the right to grant, to the maximum extent possible, whether at the time of the initial grant or subsequently any, and all, of the rights conveyed by this License.
+
+**1.3. “Contributor Version”** means the combination of the Contributions of others (if any) used by a Contributor and that particular Contributor’s Contribution.
+
+**1.4. “Contribution”** means Covered Software of a particular Contributor.
+
+**1.5. “Covered Software”** means Source Code Form to which the initial Contributor has attached the notice in Appendix 1, the Executable Form of such Source Code Form, and Modifications of such Source Code Form, in each case including portions thereof.
+
+**1.6. “Executable Form”** means any form of the work other than Source Code Form.
+
+**1.7. “Larger Work”** means a work that combines Covered Software with other material, in a separate file or files, that is not Covered Software.
+
+**1.8. “License”** means this document.
+
+**1.9. “Licensable”** means having the right to grant, to the maximum extent possible, whether at the time of the initial grant or subsequently any, and all, of the rights conveyed by this License.
+
+**1.10. “Modifications”** means any of the following:
+
+- any file in Source Code Form that results from an addition to, deletion from, or modification of the contents of Covered Software; or
+- any new file in Source Code Form that contains any Covered Software.
+
+**1.11. “Output Data”** means the data output from running Covered Software.
+
+**1.12. “Patent Claims” of a Contributor** means any patent claim(s), including without limitation, method, process, and apparatus claims, in any patent Licensable by such Contributor that would necessarily be infringed, but for the grant of the License, by the making, using, selling, offering for sale, having made, import, or transfer of either its Contributions or its Contributor Version.
+
+**1.13. “Patent Claims” of TIG** means any patent claim(s), including without limitation, method, process, and apparatus claims, in any patent Licensable by TIG that would necessarily be infringed, but for the grant of the License, by the making, using, selling, offering for sale, having made, import, or transfer of Covered Software or Product.
+
+**1.14. “Product”** means Output Data and any service, device, component, work or physical object, whether in finished or intermediate form, arising from the use, application, or processing of Output Data.
+
+**1.15. “Product Information”** means, with respect to a Product, the minimum information, in the preferred form for making modifications, regardless of its medium or how it is expressed, necessary to reproduce and make modifications to the Product, including but not limited to the Covered Software, in Source Code Form, used to generate the Product, and any necessary installation and interfacing information for the Product. Product Information need not include information necessary to reproduce any component, provided that You include sufficient information to enable a recipient to source and use the component to reproduce the Product. Where the information includes PII which would, at the time of public disclosure, breach any relevant privacy regulations then in force, the preferred form shall be an Anonymised Version of the information. If the format of the data is proprietary, it must also be made available in a format (if the proprietary tool can create it) which is viewable with a tool available to potential licensees and licensed under a licence approved by the Free Software Foundation or the Open Source Initiative.
+
+**1.16. “Source Code Form”** means the form of the work preferred for making modifications.
+
+**1.17. “TIG”** means The TIG UG, a Swiss association established and registered in Switzerland with a registered office at Gartenstrasse 6, 6300 Zug, Switzerland, its successors and assigns.
+
+**1.18. “You” (or “Your”)** means an individual or a legal entity exercising rights under this License. For legal entities, “You” includes any entity that controls, is controlled by, or is under common control with You.
+
+## 2. License Grants and Conditions
+
+### 2.1. Copyright Grants
+
+Subject to the terms of this License, each Contributor hereby grants You a world-wide, royalty-free, non-exclusive license under intellectual property rights (other than patent or trademark) Licensable by such Contributor:
+
+1. to reproduce and use its Contributions, either unmodified, with Modifications, or as part of a Larger Work; and  
+2. to make available, modify, display, perform, distribute, and otherwise exploit its Contributions, either unmodified, with Modifications, or as part of a Larger Work.
+
+### 2.2. Patent Grants
+
+1. Subject to the terms of this License, TIG hereby grants You a world-wide, royalty-free, non-exclusive license under Patent Claims of TIG to make, use, sell, offer for sale, have made, import, and otherwise transfer the Covered Software and Products.
+
+2. Subject to the terms of this License, each Contributor hereby grants You a world-wide, royalty-free, non-exclusive license under Patent Claims of such Contributor to make, use, sell, offer for sale, have made, import, and otherwise transfer its Contributions or its Contributor Version.
+
+### 2.3. Effective Date
+
+The licenses granted in Section 2.2(i) with respect to any Patent Claims of TIG become effective on the date TIG first distributes the Covered Work.
+
+The licenses granted in Sections 2.1 and 2.2(ii) with respect to any Contribution or Contributor Version become effective for each Contribution or Contributor Version on the date the Contributor first distributes such Contribution or Contributor Version.
+
+### 2.4. Limitations on Grant Scope
+
+The licenses granted in this Section 2 are the only rights granted under this License. No additional rights or licenses will be implied from the distribution or licensing of Covered Software under this License.
+
+### 2.5. Representation
+
+Each Contributor represents that the Contributor believes its Contributions are its original creation(s) or that it has sufficient rights to grant the rights to its Contributions conveyed by this License.
+
+### 2.6. Fair Use
+
+This License is not intended to limit any rights You have under applicable copyright doctrines of fair use, fair dealing, or other equivalents.
+
+### 2.7. Conditions
+
+Sections 3.1, 3.2, 3.3, and 3.4 are conditions of the licenses granted in Sections 2.1 and 2.2.
+
+## 3. Responsibilities
+
+### 3.1. Distribution of Source Form
+
+**Share Alike:** All distribution of Covered Software in Source Code Form, including any Modifications that You create or to which You contribute, must be under the terms of this License.
+
+### 3.2. Distribution of Executable Form
+
+**Availability of Source Code Form:** If You distribute Covered Software in Executable Form then such Covered Software must also be made available in Source Code Form, subject to Section 3.1 above.
+
+### 3.3. Distribution of a Larger Work
+
+You may create and distribute a Larger Work under terms of Your choice, provided that You also comply with the requirements of this License for the Covered Software.
+
+### 3.4. Provision of Product
+
+If You provide (whether by way of service, distribution or otherwise) Product, the corresponding Product Information must also be made generally available.
+
+### 3.5. Notices
+
+You may not remove or alter the substance of any license notices contained within the Source Code Form of the Covered Software.
+
+## 4. Inability to Comply Due to Statute or Regulation
+
+If it is impossible for You to comply with any terms of this License due to statute, judicial order, or regulation, You must comply to the maximum extent possible and describe the limitations.
+
+## 5. Termination
+
+The rights granted under this License will terminate automatically if You fail to comply with any of its terms.
+
+## 6. Disclaimer of Warranty
+
+Covered Software is provided on an **"AS IS"** basis, without warranty of any kind.
+
+## 7. Limitation of Liability
+
+Under no circumstances shall TIG, any Contributor, or anyone who distributes Covered Software be liable for any damages arising from use of the Covered Software.
+
+## 8. New Versions
+
+You may distribute the Covered Software under the version of the License under which You originally received it, or any subsequent version published by TIG.
+
+## 9. Miscellaneous
+
+This License represents the complete agreement concerning the subject matter hereof.
+
+## Appendix 1 - License Notice
+
+Copyright [year copyright work created] [name of copyright owner]
+
+Licensed under the TIG Open Data License v3.0 or (at your option) any later version (the "License"); you may not use this file except in compliance with the License.
+
+You may obtain a copy of the License at:
+
+https://github.com/tig-foundation/tig-monorepo/tree/main/docs/licenses
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an **"AS IS" BASIS**, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND.
