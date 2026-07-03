@@ -1,11 +1,11 @@
-# TIG Commercial License
+**TIG Commercial License**
 
 **Version 3.0, July 2025**
 https://tig.foundation
 
-## TERMS AND CONDITIONS CONTRIBUTIONS, USE, REPRODUCTION, AND DISTRIBUTION
+**TERMS AND CONDITIONS CONTRIBUTIONS, USE, REPRODUCTION, AND DISTRIBUTION**
 
-### 1. Definitions.
+**1. Definitions.**
 
 **"Derivative Work"** shall mean any work, whether in Source or Object form, that is based on (or derived from) the Work and for which the editorial revisions, annotations, elaborations, or other modifications represent, as a whole, an original work of authorship.
 
@@ -41,92 +41,129 @@ https://tig.foundation
 
 **"Work"** shall mean the work of authorship, whether in Source or Object form, made available under this License.
 
-### 2. Grant of Copyright License.
+**2. Grant of Copyright License.**
 
 Subject to payment of the relevant fee determined in accordance with the Rate Card, and the terms and conditions of this License, Licensor hereby grants to Licensee for the Term, a revocable, worldwide, non-exclusive, royalty-free, copyright license:
 
-**Internal Use**
+- **Internal Use**
 
-(i) To use, reproduce and modify the Work to prepare Derivative Works;
+- (i) To use, reproduce and modify the Work to prepare Derivative Works;
 
-(ii) To use the Work and Derivative Works for processing Licensee's own data for any purpose;
+- (ii) To use the Work and Derivative Works for processing Licensee's own data for any purpose;
 
-**Distribution to TIG**
+- **Distribution to TIG**
 
-(iii) To distribute the Work and Derivative Works, in Source or Object form, to TIG under the terms of the TIG Inbound Game License;
+- (iii) To distribute the Work and Derivative Works, in Source or Object form, to TIG under the terms of the TIG Inbound Game License;
 
-**Distribution to Third Parties**
+- **Distribution to Third Parties**
 
-(iv) To distribute the Work and Derivative Works, in Source or Object form, to any third party under the TIG Open Data License;
+- (iv) To distribute the Work and Derivative Works, in Source or Object form, to any third party under the TIG Open Data License;
 
-**Distribution in Product**
+- **Distribution in Product**
 
-(v) To distribute the Work and Derivative Works, in Object form only, under Licensee's own license terms solely for execution on a Licensee Product;
+- (v) To distribute the Work and Derivative Works, in Object form only, under Licensee's own license terms solely for execution on a Licensee Product;
 
-**Distribution to TIG Commercial Licensees**
+- **Distribution to TIG Commercial Licensees**
 
-(vi) To distribute the Work and Derivative Works, in Source or Object form, to a third party that is subsisting TIG Commercial Licensee for the term of that subsisting license and subject to the terms of that TIG Commercial License; and
+- (vi) To distribute the Work and Derivative Works, in Source or Object form, to a third party that is subsisting TIG Commercial Licensee for the term of that subsisting license and subject to the terms of that TIG Commercial License; and
 
-**Provision of SAAS**
+- **Provision of SAAS**
 
 (vii) To use the Work and Derivative Works for processing third party data provided to Licensee by any TIG Commercial Licensee interacting with Licensee remotely through a computer network.
 
-### 3. Grant of Patent License.
+**3. Grant of Patent License.**
 
 Subject to payment of the relevant fee determined in accordance with the Rate Card and the terms and conditions of this License, TIG hereby grants to Licensee for the Term, a revocable, worldwide, non-exclusive, license under the Patent Claims of TIG:
 
-**Internal Use**
+- **Internal Use**
 
-(i) To use, reproduce and modify the Work to prepare Derivative Works;
+- (i) To use, reproduce and modify the Work to prepare Derivative Works;
 
-(ii) To use the Work and Derivative Works for processing Licensee's own data for any purpose;
+- (ii) To use the Work and Derivative Works for processing Licensee's own data for any purpose;
 
-**Distribution to TIG**
+- **Distribution to TIG**
 
-(iii) To distribute the Work and Derivative Works in Source or Object form to TIG under the terms of the TIG Inbound Game License [See Appendix 1 below for how to apply the TIG Inbound Game License to your work];
+- (iii) To distribute the Work and Derivative Works in Source or Object form to TIG under the terms of the TIG Inbound Game License [See Appendix 1 below for how to apply the TIG Inbound Game License to your work];
 
-**Distribution to Third Parties**
+- **Distribution to Third Parties**
 
-(iv) To distribute the Work and Derivative Works, in Source or Object form, to any third party under the TIG Open Data License [See Appendix 2 below for how to apply the TIG Open Data License to your work];
+- (iv) To distribute the Work and Derivative Works, in Source or Object form, to any third party under the TIG Open Data License [See Appendix 2 below for how to apply the TIG Open Data License to your work];
 
-**Distribution in Product**
+- **Distribution in Product**
 
-(v) To distribute the Work and Derivative Works, in Object form only, under Licensee's own license terms solely for execution on a Licensee Product;
+- (v) To distribute the Work and Derivative Works, in Object form only, under Licensee's own license terms solely for execution on a Licensee Product;
 
-**Distribution to TIG Commercial Licensees**
+- **Distribution to TIG Commercial Licensees**
 
-(vi) To distribute the Work and Derivative Works, in Source or Object form, to a third party that is a subsisting TIG Commercial Licensee for the term of that subsisting license and subject to the terms of that TIG Commercial License; and
+- (vi) To distribute the Work and Derivative Works, in Source or Object form, to a third party that is a subsisting TIG Commercial Licensee for the term of that subsisting license and subject to the terms of that TIG Commercial License; and
 
-**Provision of SAAS**
+- **Provision of SAAS**
 
-(vii) To use the Work and Derivative Works for processing third party data provided to Licensee by any TIG Commercial Licensee interacting with Licensee remotely through a computer network.
+- (vii) To use the Work and Derivative Works for processing third party data provided to Licensee by any TIG Commercial Licensee interacting with Licensee remotely through a computer network.
 
-### 4. Patent Non-Assert.
+**4. Patent Non-Assert.**
 
 If Licensee institutes patent litigation against any entity (except by way of counterclaim in a lawsuit brought against Licensee by the relevant entity) alleging that use of the Work by that entity under and in accordance with the terms of the TIG Open Data License constitutes direct or contributory patent infringement, then any patent licenses granted to Licensee under this License for that Work shall terminate as of the date such litigation is filed.
 
-### 5. Trademarks.
+**5. Trademarks.**
 
 This License does not grant permission to use the trade names, trademarks, service marks, or product names of the Licensor, except as required for reasonable and customary use in describing the origin of the Work and reproducing the content of the NOTICE file.
 
-### 6. Disclaimer of Warranty.
+**6. Disclaimer of Warranty.**
 
 Unless required by applicable law or agreed to in writing, Licensor provides the Work on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied, including, without limitation, any warranties or conditions of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE.
 
-### 7. Limitation of Liability.
+**7. Limitation of Liability.**
 
 In no event and under no legal theory, whether in tort (including negligence), contract, or otherwise, unless required by applicable law (such as deliberate and grossly negligent acts) or agreed to in writing, shall TIG or Licensor be liable to Licensee for damages, including any direct, indirect, special, incidental, or consequential damages of any character arising as a result of this License or out of the use or inability to use the Work (including but not limited to damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses), even if TIG or Licensor, as the case may be, has been advised of the possibility of such damages.
 
-### 7. Assignment.
+**7. Assignment.**
 
 Licensee may not assign or otherwise transfer this License and its rights and obligations hereunder, in whole or in part, by operation of law or otherwise, without the written consent of TIG. In the case of any permitted assignment or transfer of or under this License, this Licensee or the relevant provisions shall be binding upon, and inure to the benefit of, the successors, executors, heirs, representatives, administrators and assigns of the parties hereto.
 
-### 8. Term and Termination.
+**8. Term and Termination.**
 
 Except as provided below, this License shall continue in force for the Term unless terminated earlier in accordance with the provisions of this Section 8. Without prejudice to any other rights, TIG may terminate this License at any time if Licensee fails to comply with any of the terms of the License. Upon termination of this License, the license granted hereunder will terminate and Licensee must stop all use of the Work and Licensee must delete all copies of Work.
 
 **END OF TERMS AND CONDITIONS**
 
-Executed by TIG
+**Executed by TIG**
 
-Executed by Licensee
+**Executed by Licensee**
+
+**APPENDIX 1:** How to apply the TIG Inbound Game License to your work.
+
+To apply the TIG Inbound Game License to your work, attach the following boilerplate notice, with the fields enclosed by brackets "[]" replaced with your own identifying information. (Don't include the brackets!) The text should be enclosed in the appropriate comment syntax for the file format. We also recommend that a file or class name and description of purpose be included on the same "printed page" as the copyright notice for easier identification within third-party archives.
+
+**Copyright** [year copyright work created] [name of copyright owner]
+**Identity of Submitter** [name of person or entity that submits the Work to TIG]
+**Identity of Creator of the Algorithmic Method** [person or entity attributed with
+creating the Algorithmic Method (if known)]
+**UAI** [UAI number (if any)]
+
+Licensed under the TIG Inbound Game License v3.0 or (at your option) any later
+version (the "License"); you may not use this file except in compliance with the
+License. You may obtain a copy of the License at
+https://github.com/tig-foundation/tig-monorepo/tree/main/docs/licenses
+
+Unless required by applicable law or agreed to in writing, software distributed
+under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+CONDITIONS OF ANY KIND, either express or implied. See the License for the specific
+language governing permissions and limitations under the License.
+
+
+**APPENDIX 2:** How to apply the TIG Open Data License to your work.
+
+To apply the TIG Open Data License to your work, attach the following boilerplate notice, with the fields enclosed by brackets "[]" replaced with your own identifying information. (Don't include the brackets!) The text should be enclosed in the appropriate comment syntax for the file format. We also recommend that a file or class name and description of purpose be included on the same "printed page" as the copyright notice for easier identification within third-party archives.
+
+**Copyright** [year copyright work created] [name of copyright owner]
+
+Licensed under the TIG Open Data License v3.0 or (at your option) any later version
+(the "License"); you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+https://github.com/tig-foundation/tig-monorepo/tree/main/docs/licenses
+
+Unless required by applicable law or agreed to in writing, software distributed
+under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+CONDITIONS OF ANY KIND, either express or implied. See the License for the specific
+language governing permissions and limitations under the License.
