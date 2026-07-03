@@ -58,11 +58,6 @@ Additional support files include `sequence.rs`, `individual.rs`, and `problem.rs
 
 ## License
 
-This code is available for use outside of the TIG game under the TIG Open Data License, subject to its share-alike and open data terms.
+This code is available for use outside of the TIG game under the [*TIG Open Data License*](https://github.com/tig-foundation/hgs_advance/open_data_license.pdf), subject to its share-alike and open data terms.
 
-For users who do not wish to comply with those terms, this code is also available under the TIG Commercial License, subject to payment of the applicable commercial license fee.
-
-Copies of both licenses can be obtained at:
-
-* https://github.com/tig-foundation/hgs_advance/open_data_license.pdf
-* https://github.com/tig-foundation/hgs_advance/commercial_license.pdf
+For users who do not wish to comply with those terms, this code is also available under the [*TIG Commercial License*](https://github.com/tig-foundation/hgs_advance/commercial_license.pdf), subject to payment of the applicable commercial license fee.
