@@ -58,13 +58,11 @@ Additional support files include `sequence.rs`, `individual.rs`, and `problem.rs
 
 ## License
 
-The files in this folder are under the following licenses:
-* TIG Benchmarker Outbound License
-* TIG Commercial License
-* TIG Inbound Game License
-* TIG Innovator Outbound Game License
-* TIG Open Data License
-* TIG THV Game License
+This code is available for use outside of the TIG game under the TIG Open Data License, subject to its share-alike and open data terms.
 
-Copies of the licenses can be obtained at:
-https://github.com/tig-foundation/tig-monorepo/tree/main/docs/licenses
+For users who do not wish to comply with those terms, this code is also available under the TIG Commercial License, subject to payment of the applicable commercial license fee.
+
+Copies of both licenses can be obtained at:
+
+* https://github.com/tig-foundation/hgs_advance/open_data_license.pdf
+* https://github.com/tig-foundation/hgs_advance/commercial_license.pdf
